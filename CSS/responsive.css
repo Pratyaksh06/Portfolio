@@ -1,0 +1,36 @@
+/* try to only specify changes in media queries instead of replicating values */
+@media all and (max-width:500px) {
+  nav {
+    position: fixed;
+    /* display: flex; -- already defined */
+    /* height: 4rem;  -- already defined */
+    /* background-color: red; */
+    font-size: .6rem;
+  }
+  .nav-logo {
+    /* font-weight: bold;  -- already defined */
+    /* align-items: center;  -- already defined */
+    /* padding-left: 1rem;  -- already defined */
+    /* display: flex;  -- already defined */
+    flex-basis: 30%;
+    /* font-family: 'Rock Salt', cursive; */
+    /* background-color: yellow; */
+    /* padding-left: 1rem;  -- already defined in this block and above */
+  }
+  .nav-links {
+    flex-basis: 70%;
+    /* background-color: teal; */
+  }
+  .nav-links ul li a {
+    /* position: relative; -- already defined */
+    /* display: flexbox; -- already defined */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    text-decoration:underline;
+    margin: 0 .5em 4em 0;
+  
+    /* background-color: darkgrey; */
+    color: white;
+  }
+}
