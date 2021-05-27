@@ -13,10 +13,11 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  background-color:#1d1b1b;
+  /* background-color:#1d1b1b; */
 }
 
 body {
+  background-color: #161A1A ;
   color: white;
   background-repeat: space;
   -webkit-background-size: cover;
@@ -27,63 +28,29 @@ body {
 }
 
 nav {
+  width: 100%;
   position:static ;
   display: flex;
-  height: 4em;
-  margin-bottom: ;
+  height: 4rem;
   /* border-radius: 0px 0px 0px 0px; */
   /* box-shadow: 100px 100px 200px rgb(248, 213, 11); */
-}
-
-.space1 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 50%;
-  /* background-color: green; */
-
+  scroll-padding: 1rem 0 0 0;
 }
 
 .nav-logo {
-  font-weight:bold;
+  font-weight: bold;
   align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 50%;
-  height: 100%;
+  padding-left: 1rem;
+  /* display: flex; */
+  flex-basis: 50%;
+  /* height: 100%; don't add a height flex containers already fill height */
   font-family: 'Rock Salt', cursive;
-  /* background-color: yellow; */
 }
-
-.empty-space1 {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  /* background-color: rebeccapurple; */
-}
-
-.space2 {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  /* background-color: peru; */
-}
-
-/* .empty-space2 {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  background-color: yellowgreen; 
-}*/
 
 .nav-links {
-  display: inline-flex;
-  width: 100%;
-  /* background-color: teal; */
-  justify-content: center;
-  height: 100%;
+  /* display: inline-flex; -- this has no function as its a flex element */
+  width: 50%;
+  padding-left: 3rem;
 }
 
 .nav-links ul {
@@ -115,7 +82,7 @@ nav {
   align-items: center;
   text-decoration:none;
   margin: 0 .5em 4em 0;
-  letter-spacing: 2px;
+
   /* background-color: darkgrey; */
   color: white;
 }
@@ -177,16 +144,14 @@ nav {
 }
 .intro-container{
 
-    display: flex;
+    display: flexbox;
     padding: .2% .3% 0 3% ;
 }
 
-.intro-para{
+.intro-container p{
     width: 50%;
     letter-spacing:.5px;
-
 }
 
-.intro-image{
-    width: 50%;
-}
+
+
