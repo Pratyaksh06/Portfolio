@@ -139,7 +139,7 @@ nav {
     text-shadow: 0 0 30px #fff, 0 0 30px #fff, 0 0 30px #e60073, 0 0 30px #eb632e, 0 0 30px #6ff16f, 0 0 20px #bce600, 0 0 20px #300ef1;
   }
   to {
-    text-shadow: 0 0 30px rgb(0, 0, 0), 0 0 30px #ca1c1c, 0 0 30px #f80505, 0 0 30px #ff9a02, 0 0 30px #eafa0f, 0 0 2 0px #eb117e, 0 0 20px #04ff9f;
+    text-shadow: 0 0 30px #161A1A, 0 0 30px #ca1c1c, 0 0 30px #f80505, 0 0 30px #ff9a02, 0 0 30px #eafa0f, 0 0 2 0px #eb117e, 0 0 20px #04ff9f;
   }
 }
 .intro-container{
