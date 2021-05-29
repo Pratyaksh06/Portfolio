@@ -41,7 +41,7 @@ nav {
   font-weight: bold;
   align-items: center;
   padding-left: 1rem;
-  /* display: flex; */
+  display: flex;
   flex-basis: 50%;
   /* height: 100%; don't add a height flex containers already fill height */
   font-family: 'Rock Salt', cursive;
